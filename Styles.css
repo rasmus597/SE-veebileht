@@ -1,0 +1,24 @@
+Body {
+    background-image: url(Pildid/taust.jpg);
+    overflow: scroll;
+}
+
+.Üleminenupp {
+    list-style-type: none;
+    overflow: hidden;
+    height: auto;
+    background-color: rgb(72, 77, 63);
+    opacity: 50%;
+    margin: auto;
+}
+
+.Aktiivne {
+    float: left;
+}
+
+.Üleminenupp a {
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    margin: 12px 12px;
+}
