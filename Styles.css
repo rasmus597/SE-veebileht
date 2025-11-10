@@ -1,10 +1,12 @@
 Body {
-    background-image: url(Pildid/taust.jpg);
+    background-image: url(Pildid/Avaleht/taust.jpg);
     overflow: scroll;
 }
 
 .Üleminenupp {
-    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
     overflow: hidden;
     height: auto;
     background-color: rgb(72, 77, 63);
@@ -17,7 +19,7 @@ Body {
 }
 
 .Üleminenupp a {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     display: block;
     text-decoration: none;
     margin: 12px 12px;
