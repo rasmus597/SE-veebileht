@@ -1,6 +1,8 @@
-Body {
+.body1 {
     background-image: url(Pildid/Avaleht/taust.jpg);
-    overflow: scroll;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .Üleminenupp {
@@ -9,18 +11,24 @@ Body {
     column-gap: 5%;
     overflow: hidden;
     height: auto;
-    background-color: rgb(72, 77, 63);
-    opacity: 50%;
+    background-color: rgb(49, 53, 43);
     margin: auto;
+    border: 1px solid black;
 }
 
 .Aktiivne {
     float: left;
+    background-color: rgb(85, 90, 77);
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-decoration: none;
+    margin: 12px 12px;
+
 }
 
-.Üleminenupp a {
+.ÜleminenuppA {
     color: rgb(255, 255, 255);
-    display: block;
+    display: flex;
     text-decoration: none;
     margin: 12px 12px;
 }
