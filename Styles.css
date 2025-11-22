@@ -32,3 +32,24 @@
     text-decoration: none;
     margin: 12px 12px;
 }
+
+.sisu {
+    color: rgba(255, 255, 255, 0.555);
+    background-color: rgb(85, 90, 77);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+    right: 30%;
+}
+
+.pilt1 {
+    background-color: rgb(93, 99, 85);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+}
