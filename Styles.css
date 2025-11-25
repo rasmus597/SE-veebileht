@@ -46,6 +46,19 @@
     right: 30%;
 }
 
+.sisu2 {
+    color: rgba(255, 255, 255, 0.555);
+    background-color: rgb(77, 90, 89);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
 .pilt1 {
     background-color: rgb(93, 99, 85);
     width: 100%;
