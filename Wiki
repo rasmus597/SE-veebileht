@@ -11,3 +11,12 @@ Rühmatöö käitumisnormid:
 
 Tagajärjed kui rühmaliige töös ei osale:
 Kui rühma liige ei osale töös või pole kättesaadav, siis ta maksab oma tegemata töö kinni rahaga või peab lõpuks rohkem tööd tegema ja aitama kedagi teist lehega.
+
+Rühmaliikmeteks on: Rasmus, Oskar, Jaagup
+
+Veebileht tutvustab algajatele Pythoni programmeerimiskeelt ja selle kasutamist.
+
+Tööjaotuse määrasime nii, et iga rühmaliige vastutab ühe lehe eest:
+- Rasmus: Avaleht
+- Jaagup: Andmetüübid Pythonis
+- Oskar: Funktsioonid
