@@ -19,4 +19,4 @@ Veebileht tutvustab algajatele Pythoni programmeerimiskeelt ja selle kasutamist.
 Tööjaotuse määrasime nii, et iga rühmaliige vastutab ühe lehe eest:
 - Rasmus: Avaleht
 - Jaagup: Andmetüübid Pythonis
-- Oskar: Funktsioonid
+- Oskar: Funktsioonid ja tsüklid
