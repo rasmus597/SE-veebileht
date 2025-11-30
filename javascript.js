@@ -13,6 +13,8 @@ function andmetüüp(evt, tüüp) {
 
   document.getElementById(tüüp).style.display = "block";
   evt.currentTarget.className += " active";
+
+  document.getElementById(tüüp).click();
 } 
 
 //Kood ei ole minu kirjutatud! Autoriks on W3Schools, kood saadud lehelt https://www.w3schools.com/howto/howto_js_tabs.asp
