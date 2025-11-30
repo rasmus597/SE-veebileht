@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="stylevaheleht2.css">
         <link rel="stylesheet" href="Styles.css">
+         <script src="javascript.js"></script> 
         <title>Pythoni andmetüübid</title>
     </head>
     <body>
@@ -12,15 +13,31 @@
            <a class ="Aktiivne" href="Vaheleht2.html"> Andmetüübid </a>
            <a class ="ÜleminenuppA" href="Vaheleht1.html"> Funktsionaalsus </a>
       </div>
-        <header>Pythoni andmetüübid</header>
         <div class="info">
-            <p>Pythoni üheks tähtsamaks osaks on muutujad ning andmed, mida muutujad endas talletavad.
-            Näiteks: rida "x = 4" omastab muutujale x väärtuse täisarvu 4.</p>
+            <header>Pythoni andmetüübid</header>
+            <p>Pythoni üheks tähtsamaks osaks on muutujad ning andmed, mida muutujad endas talletavad.</p>
             <img class="naide1" src="Pildid/Vaheleht2/naide1.png" alt="x väärtus on 4">
-             <p>str - string - sõne, kõik mis jääb jutumärkide ("") või ülakomade ('') vahele.<br>
-            int - integer - täisarv (nt 3, 19, 206)<br>
-            float - floating point number - ujukomaarv, st arvus esineb komakoht (nt 4.45, aga ka 6.0)</p>
-            <img class="andmetüübid" src="Pildid/Vaheleht2/andmetüübid.png" alt="Pythoni andmetüübid">
+            <div class="pilditekst">Näiteks: rida "x = 4" omastab muutujale x väärtuse täisarvu 4.</div>
+            <header>Põhilised andmetüübid</header>
+            <div class="tab">
+                <button class="tablinks" onclick="andmetüüp(event, 'str')">String</button>
+                <button class="tablinks" onclick="andmetüüp(event, 'int')">Integer</button>
+                <button class="tablinks" onclick="andmetüüp(event, 'float')">Floating Point Number</button>
+            </div>
+            <div id="str" class="tabcontent">
+            <h3>String</h3>
+            <p>str - string - sõne, kõik mis jääb jutumärkide ("") või ülakomade ('') vahele.<br> 
+            NB! Ka ujukoma- ja täisarvud loevad sõnena, kui need jätta jutumärkide vahele.</p>
+            <img class="andmetüübid" src="Pildid/Vaheleht2/str.png" alt="String Pythonis">
+            </div>
+            <div id="int" class="tabcontent">
+            <h3>Integer</h3>
+            <p>int - integer - täisarv (nt 3, 19, 206)</p>
+            </div>
+            <div id="float" class="tabcontent">
+            <h3>Floating Point Number</h3>
+            <p>float - floating point number - ujukomaarv, st arvus esineb komakoht (nt 4.45, aga ka 6.0)</p>
+            </div>
         </div>
 
 </body>
