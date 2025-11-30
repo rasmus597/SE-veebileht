@@ -20,13 +20,13 @@
             <img class="naide1" src="Pildid/Vaheleht2/naide1.png" alt="x väärtus on 4">
             <div class="pilditekst">Näiteks: rida "x = 4" omistab muutujale x väärtuse täisarvu 4.</div>
             <h2>Põhilised andmetüübid</h2>
-            <p>Pythonis on kõige aluseks 4 põhilist andmetüüpi. Andmetüüpe on küll rohkem, aga lõppude lõpuks tuginetakse alati neile kolmele.<br> 
+            <p>Pythonis on kõige aluseks 4 põhilist andmetüüpi. Andmetüüpe on küll rohkem, aga lõppude lõpuks tuginetakse alati neile neljale.<br> 
             Hea teada: Pythoni käsklus <code>type</code> tagastab antud väärtuse tüübi.</p>  
             <div class="sakk">
-                <button class="sakklink" onclick="andmetüüp(event, 'str')">String</button>
+                <button class="sakklink" onclick="andmetüüp(event, 'str')" id="vaikimisilahti">String</button>
                 <button class="sakklink" onclick="andmetüüp(event, 'int')">Integer</button>
                 <button class="sakklink" onclick="andmetüüp(event, 'float')">Floating Point Number</button>
-                <button class="sakklink" onclick="andmetüüp(event, 'trueorfalse')">Boolean</button>
+                <button class="sakklink" onclick="andmetüüp(event, 'bool')">Boolean</button>
             </div>
             <div id="str" class="sakksisu">
             <p>str - string ehk sõne, kõik mis jääb jutumärkide (" ") või ülakomade (' ') vahele.<br> 
@@ -42,11 +42,11 @@
             <p>float - floating point number ehk ujukomaarv, st arv, milles esineb komakoht (nt 4.45, aga ka 6.0)</p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/float.png" alt="Ujukomaarv Pythonis">
             </div>
-            <div id="trueorfalse" class="sakksisu">
+            <div id="bool" class="sakksisu">
             <p>bool - boolean ehk tõeväärtus. Antud andmetüüp on omamoodi, kuna sellel saab olla täpselt 2 väärtust: <code>True</code> või <code>False</code>.<br> 
             Ühe elemendi tõeväärtust saab kontrollida käsu <code>bool()</code> abil. Kui element on mingi kindel väärtus, millega saab midagi teha, on tema tõeväärtus <code>True</code>.<br>
             Kui element on nt 0 või tühi sõne (ehk <code>""</code>), siis on tema tõeväärtus <code>False</code>.</p>
-            <img class="andmetüübid" src="Pildid/Vaheleht2/bool.png" alt="Boolean Pythonis">
+            <img class="andmetüübid" src="Pildid/Vaheleht2/bool.png" alt="Tõeväärtus Pythonis">
             <div class="pilditekst">Kuigi tõeväärtust saab kasutada teiste elementide uurimiseks, saab tõeväärtus ise olla ka element.</div>
             </div>
             <p>Tasub ka mainida, et teatud operatsioonid töötavad ainult teatud andmetüüpidega. Rida<br>
