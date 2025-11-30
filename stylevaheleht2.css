@@ -1,11 +1,13 @@
 body {
-  font-family: Arial, sans-serif; 
   color: white;
 }
 
 .naide1 {
-  max-width: 50%;
-  height: 50%;
+  max-width: 30%;
+  height: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
@@ -22,14 +24,17 @@ header {
   text-align: left;
   margin: auto;
   padding: 20px;
-  width: 30%;
+  width: 60%;
   position: relative;
   margin-top: 2%;
   line-height: 1.6;
 }
 
 .andmetüübid {
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
 }
 
 header {
@@ -37,10 +42,10 @@ header {
 }
 
 .pilditekst {
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
-  color: whitesmoke;
-  margin-bottom: 3%;
+  color: gainsboro;
+  margin-bottom: 1%;
 }
 
 .info h2 {
@@ -53,29 +58,21 @@ header {
     align-items: center;
 }
 
-.code-block {
-    background-color: #1f2937;
-    padding: 15px;
-    border-radius: 4px;
-    overflow-x: auto;
-    margin: 15px 0;
-    border-left: 4px solid #6b7280;
+code {
+  font-family: Consolas,"courier new";
+  color: beige;
+  background-color: rgb(40, 50, 50);
+  padding: 2px;
+  font-size: 90%;
 }
 
-.code-block pre {
-    margin: 0;
-    padding: 0;
-}
-
- /* Style the tab */
-.tab {
+.sakk {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: rgb(50, 90, 77);
 }
 
-/* Style the buttons that are used to open the tab content */
-.tab button {
+.sakk button {
   background-color: inherit;
   float: left;
   border: none;
@@ -86,20 +83,17 @@ header {
   color: white;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
+.sakk button:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
+.sakk button.active {
   background-color: #ccc;
   color: black;
 }
 
-/* Style the tab content */
-.tabcontent {
+.sakksisu {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
