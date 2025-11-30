@@ -14,30 +14,53 @@
            <a class ="ÜleminenuppA" href="Vaheleht1.html"> Funktsionaalsus </a>
       </div>
         <div class="info">
-            <header>Pythoni andmetüübid</header>
+            <h2>Pythoni andmetüübid</h2>
             <p>Pythoni üheks tähtsamaks osaks on muutujad ning andmed, mida muutujad endas talletavad.</p>
             <img class="naide1" src="Pildid/Vaheleht2/naide1.png" alt="x väärtus on 4">
-            <div class="pilditekst">Näiteks: rida "x = 4" omastab muutujale x väärtuse täisarvu 4.</div>
-            <header>Põhilised andmetüübid</header>
+            <div class="pilditekst">Näiteks: rida "x = 4" omistab muutujale x väärtuse täisarvu 4.</div>
+            <h2>Põhilised andmetüübid</h2>
+            <p>Pythonis on kõige aluseks 3 põhilist andmetüüpi. Andmetüüpe on küll rohkem, aga lõppude lõpuks tuginetakse alati neile kolmele. Veel üheks põhiliseks andmetüübiks on kompleksarvud, mida me siin lehel ei käsitle.<br> 
+            Hea teada: Pythoni käsklus <code>type</code> tagastab antud väärtuse tüübi.</p>  
             <div class="tab">
                 <button class="tablinks" onclick="andmetüüp(event, 'str')">String</button>
                 <button class="tablinks" onclick="andmetüüp(event, 'int')">Integer</button>
                 <button class="tablinks" onclick="andmetüüp(event, 'float')">Floating Point Number</button>
             </div>
             <div id="str" class="tabcontent">
-            <h3>String</h3>
-            <p>str - string - sõne, kõik mis jääb jutumärkide ("") või ülakomade ('') vahele.<br> 
+            <p>str - string ehk sõne, kõik mis jääb jutumärkide ("") või ülakomade ('') vahele.<br> 
             NB! Ka ujukoma- ja täisarvud loevad sõnena, kui need jätta jutumärkide vahele.</p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/str.png" alt="String Pythonis">
             </div>
             <div id="int" class="tabcontent">
-            <h3>Integer</h3>
-            <p>int - integer - täisarv (nt 3, 19, 206)</p>
+            <p>int - integer ehk täisarv (nt 3, 19, 206)</p>
+            <img class="andmetüübid" src="Pildid/Vaheleht2/int.png" alt="Integer Pythonis">
             </div>
             <div id="float" class="tabcontent">
-            <h3>Floating Point Number</h3>
-            <p>float - floating point number - ujukomaarv, st arvus esineb komakoht (nt 4.45, aga ka 6.0)</p>
+            <p>float - floating point number ehk ujukomaarv, st arv, milles esineb komakoht (nt 4.45, aga ka 6.0)</p>
+            <img class="andmetüübid" src="Pildid/Vaheleht2/float.png" alt="Float Pythonis">
             </div>
+            <p>Tasub ka mainida, et teatud operatsioonid töötavad ainult teatud andmetüüpidega. Rida <code>x = "Tere!" / "Maailm!"</code> tagastab errori, kuna kahte sõnet ei saa omavahel jagada.</p>
+            <h2>Keerukamad andmetüübid</h2>
+            <p>Nagu eelnevalt juba mainitud, siis on Pythonis tegelikult rohkem andmetüüpe. Uurime mõnda neist lähemalt:</p>
+                <div class="tab">
+                <button class="tablinks" onclick="andmetüüp(event, 'list')">List</button>
+                <button class="tablinks" onclick="andmetüüp(event, 'set')">Set</button>
+                <button class="tablinks" onclick="andmetüüp(event, 'dict')">Dictionary</button>
+            </div>
+            <div id="list" class="tabcontent">
+            <p>str - string ehk sõne, kõik mis jääb jutumärkide ("") või ülakomade ('') vahele.<br> 
+            NB! Ka ujukoma- ja täisarvud loevad sõnena, kui need jätta jutumärkide vahele.</p>
+            <img class="andmetüübid" src="Pildid/Vaheleht2/str.png" alt="String Pythonis">
+            </div>
+            <div id="set" class="tabcontent">
+            <p>int - integer ehk täisarv (nt 3, 19, 206)</p>
+            <img class="andmetüübid" src="Pildid/Vaheleht2/int.png" alt="Integer Pythonis">
+            </div>
+            <div id="dict" class="tabcontent">
+            <p>dict - dictionary ehk sõnastik. Koosneb võtmetest ja väärtustest. Nt. Käsklus <code>sõnastik[x] = y</code> määrab võtmele x väärtuse y.</p>
+            <img class="andmetüübid" src="Pildid/Vaheleht2/dict.png" alt="Sõnastik Pythonis">
+            </div>
+            Kõik need andmetüübid omistavad ühele muutujale väärtuse, mis omakorda koosneb veel mitmest väärtusest.
         </div>
 
 </body>
