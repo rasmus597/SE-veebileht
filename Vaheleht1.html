@@ -1,14 +1,114 @@
 <!DOCTYPE html>
-<html>
-  <meta charset=UTF-8>
-  <head>
-    <title> Vaheleht1 </title>
-    <h1>Funktsioonid ja tsüklid</h1>
-  </head>
-  <body>
-    <div>
-      <img src="Pildid/Vaheleht1/funct_dec.jpg" alt="">
-      <img>
-    </div>
-  </body>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pythoni Funktsioonid ja Tsüklid</title>
+    
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="vaheleht1.css">
+</head>
+
+<body class="body1">
+    
+    <header>
+      <div class="Üleminenupp">
+        <a class ="ÜleminenuppA" href="Pealeht.html"> Avaleht </a> 
+        <a class ="ÜleminenuppA" href="Vaheleht2.html"> Andmetüübid </a>
+
+        <a class ="Aktiivne" href="Vaheleht1.html"> Funktsionaalsus </a>
+      </div>
+    </header>
+
+    <main class="content-container">
+        
+        <h1 class="main-heading">
+            Funktsioonid ja tsüklid
+        </h1>
+
+        <section class="sisu-kast">
+            <h2>
+                1. Funktsioonid
+            </h2>
+            <p>
+                Funktsioon on korduvkasutatav koodiplokk, mis täidab konkreetset ülesannet. See aitab muuta koodi loetavamaks, organiseeritumaks ja vähendada koodi kordamist.
+            </p>
+
+            <h3>Funktsiooni defineerimine</h3>
+            <p>
+                Funktsioon defineeritakse märksõnaga <code>def</code>, millele järgneb funktsiooni nimi ja sulgudes parameetrid.
+            </p>
+            <div class="code-block">
+                <pre><code class="language-python"># Funktsiooni defineerimine ilma parameetriteta
+<strong>def</strong> tervita():
+    print("Tere tulemast Pythoni maailma!") # Väljastab sõne
+
+# Funktsiooni defineerimine parameetritega
+<strong>def</strong> liida_arvud(a, b):
+    tulemus = a + b
+    <strong>return</strong> tulemus # Tagastab väärtuse
+</code></pre>
+            </div>
+
+            <h3>Funktsiooni väljakutsumine</h3>
+            <p>
+                Funktsiooni käivitamiseks tuleb see välja kutsuda selle nime ja vastavate argumentidega.
+            </p>
+            <div class="code-block">
+                <pre><code class="language-python">tervita() <span class="comment"></span>
+
+summa = liida_arvud(15, 7)
+print(<em class="string">f"Summa on: {summa}"</em>) <span class="comment"></span>
+</code></pre>
+            </div>
+        </section>
+
+        <section class="sisu-kast">
+            <h2>
+                2. Tsüklid
+            </h2>
+            <p>
+                Tsüklid võimaldavad korduvate ülesannete automatiseerimist, käivitades koodiploki korduvalt, kuni teatud tingimus on täidetud.
+            </p>
+
+            <h3>For-tsükkel</h3>
+            <p>
+                <code>for</code>-tsüklit kasutatakse tavaliselt järjendite, sõnede, hulkadega seotud toimingute jaoks või koodiploki kordamiseks määratud arv kordi (<code>range()</code> funktsiooniga).
+            </p>
+            <div class="code-block">
+                <pre><code class="language-python"># For-tsükkel järjendi jaoks
+puuviljad = [<em class="string">"õun"</em>, <em class="string">"banaan"</em>, <em class="string">"kirss"</em>]
+<strong>for</strong> puuvili <strong>in</strong> puuviljad:
+    print(<em class="string">f"Mulle meeldib {puuvili}."</em>)
+
+# For-tsükkel numbrilises vahemikus kordamiseks
+<strong>for</strong> i <strong>in</strong> range(3): <span class="comment"># kordab 3 korda (0, 1, 2)</span>
+    print(<em class="string">f"Kordus number {i + 1}"</em>)
+</code></pre>
+            </div>
+
+            <h3>While-tsükkel</h3>
+            <p>
+                <code>while</code>-tsükkel kordab koodiplokki seni, kuni antud tingimus on tõene (<code>True</code>).
+            </p>
+            <div class="code-block">
+                <pre><code class="language-python">loendur = 0
+<strong>while</strong> loendur < 5:
+    print(<em class="string">f"Praegune loendur: {loendur}"</em>)
+    loendur += 1 <span class="comment"></span>
+</code></pre>
+            </div>
+
+            <h3>Tsükli kontrollvood</h3>
+            <ul class="control-flow-list">
+                <li><strong class="keyword-highlight"><code>break</code></strong>: Katkestab tsükli koheselt.</li>
+                <li><strong class="keyword-highlight"><code>continue</code></strong>: Jätab vahele tsükli käesoleva osa ja jätkab järgmise osaga.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
 </html>
