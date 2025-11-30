@@ -1,36 +1,55 @@
-.body1 {
-    background-image: url(Pildid/Avaleht/taust.jpg);
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+.sisu {
+    color: rgba(255, 255, 255, 0.555);
+    background-color: rgb(85, 90, 77);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+    right: 30%;
 }
 
-.Üleminenupp {
-    display: flex;
-    flex-direction: row;
-    column-gap: 5%;
-    overflow: hidden;
-    height: auto;
-    background-color: rgb(49, 53, 43);
+.sisu2 {
+    color: rgba(255, 255, 255, 0.555);
+    background-color: rgb(77, 90, 89);
+    text-align: center;
     margin: auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.pilt1 {
+    background-color: rgb(93, 99, 85);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
     border: 1px solid black;
 }
 
-.Aktiivne {
-    float: left;
-    background-color: rgb(85, 90, 77);
-    color: rgb(255, 255, 255);
-    display: flex;
-    text-decoration: none;
-    margin: 12px 12px;
-
+.sisu3 {
+    color: rgba(255, 255, 255, 0.555);
+    background-color: rgb(77, 84, 90);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+    border: 2px solid black;
+    position: absolute;
+    top: 35%;
+    left: 45%;
 }
 
-.ÜleminenuppA {
-    color: rgb(255, 255, 255);
-    display: flex;
-    text-decoration: none;
-    margin: 12px 12px;
+.pilt2 {
+    background-color: rgb(93, 99, 85);
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid black;
 }
 
 .sisu {
