@@ -33,23 +33,27 @@
                 <button class="sakklink" onclick="andmetüüp(event, 'bool')">Boolean</button>
             </div>
             <div id="str" class="sakksisu">
-            <p>str - string ehk sõne, kõik mis jääb jutumärkide (" ") või ülakomade (' ') vahele.<br> 
-            NB! Ka ujukoma- ja täisarvud loevad sõnena, kui need jätta jutumärkide vahele.</p>
+            <p>str - string ehk sõne<br>
+                Kõik mis jääb jutumärkide (" ") või ülakomade (' ') vahele.<br> 
+                NB! Ka ujukoma- ja täisarvud loevad sõnena, kui need jätta jutumärkide vahele.</p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/str.png" alt="Sõne Pythonis">
             <div class="pilditekst">Antud kontekstis on <code>"9"</code> hoopis sõne.</div>
             </div>
             <div id="int" class="sakksisu">
-            <p>int - integer ehk täisarv (nt 3, 19, 206)</p>
+            <p>int - integer ehk täisarv<br>
+                Lihtsalt täisarv (nt 9, 58, 2503)</p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/int.png" alt="Täisarv Pythonis">
             </div>
             <div id="float" class="sakksisu">
-            <p>float - floating point number ehk ujukomaarv, st arv, milles esineb komakoht (nt 4.45, aga ka 6.0)</p>
+            <p>float - floating point number ehk ujukomaarv<br>
+                Arv, milles esineb komakoht (nt 4.45, aga ka 6.0)</p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/float.png" alt="Ujukomaarv Pythonis">
             </div>
             <div id="bool" class="sakksisu">
-            <p>bool - boolean ehk tõeväärtus. Antud andmetüüp on omamoodi, kuna sellel saab olla täpselt 2 väärtust: <code>True</code> või <code>False</code>.<br> 
-            Ühe elemendi tõeväärtust saab kontrollida käsu <code>bool()</code> abil. Kui element on mingi kindel väärtus, millega saab midagi teha, on tema tõeväärtus <code>True</code>.<br>
-            Kui element on nt 0, tühi sõne (ehk <code>""</code>) või <code>None</code>, siis on tema tõeväärtus <code>False</code>.</p>
+            <p>bool - boolean ehk tõeväärtus<br>
+                Antud andmetüüp on omamoodi, kuna sellel saab olla täpselt 2 väärtust: <code>True</code> või <code>False</code>.<br> 
+                Ühe elemendi tõeväärtust saab kontrollida käsu <code>bool()</code> abil. Kui element on mingi kindel väärtus, millega saab midagi teha, on tema tõeväärtus <code>True</code>.<br>
+                Kui element on nt 0, tühi sõne (ehk <code>""</code>) või <code>None</code>, siis on tema tõeväärtus <code>False</code>.</p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/bool.png" alt="Tõeväärtus Pythonis">
             <div class="pilditekst">Kuigi tõeväärtust saab kasutada teiste elementide uurimiseks, saab tõeväärtus ise olla ka element.</div>
             </div>
@@ -69,7 +73,8 @@
                 <button class="sakklink" onclick="andmetüüp(event, 'dict')">Dictionary</button>
             </div>
             <div id="list" class="sakksisu">
-            <p>list - list ehk järjend. Võib sisaldada kuitahes palju elemente, kusjuures elemendid võivad korduda. Järjendi tunneb ära nurksulgude [ ] järgi.<br>
+            <p>list - list ehk järjend<br>
+                Võib sisaldada kuitahes palju elemente, kusjuures elemendid võivad korduda. Järjendi tunneb ära nurksulgude [ ] järgi.<br>
                 Tühja järjendit saab koostada käsuga <code>järjend = []</code> ning sellesse saab elemente lisada käsuga <code>järjend.append(element)</code>.</p>
                 <p>Siinkohal tasub mainida, et kui soovite saada järjendist kätte ühte kindlat elementi, siis peab selle esile kutsuma indeksi kaudu.<br>
                 <b>Python alustab indeksite lugemist nullist.</b><br>
@@ -78,15 +83,17 @@
             <div class="pilditekst">Järjendi elemendi indeksit saab uurida <code>järjend.index(element)</code> käsuga.</div>
             </div>
             <div id="set" class="sakksisu">
-            <p>set - set ehk hulk. Sarnaneb järjendiga, erandiks see, et hulgas ei saa elemendid korduda ning elemendid ei oma indekseid. Hulga tunneb ära looksulgude järgi { }.<br>
-            NB! Ka sõnastik kasutab looksulge! <br>
-            Tühja hulka saab koostada käsuga <code>hulk = set()</code> ning sellesse saab elemente lisada käsuga <code>hulganimi.add(element)</code></p>
+            <p>set - set ehk hulk<br>
+                Sarnaneb järjendiga, erandiks see, et hulgas ei saa elemendid korduda ning elemendid ei oma indekseid. Hulga tunneb ära looksulgude järgi { }.<br>
+                NB! Ka sõnastik kasutab looksulge! <br>
+                Tühja hulka saab koostada käsuga <code>hulk = set()</code> ning sellesse saab elemente lisada käsuga <code>hulganimi.add(element)</code></p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/set.png" alt="Hulk Pythonis">
             <div class="pilditekst">Kuna hulgas indeksid puuduvad, ei ole elementide järjekord oluline</div>
             </div>
             <div id="dict" class="sakksisu">
-            <p>dict - dictionary ehk sõnastik. Koosneb võtmetest ja väärtustest. Tühja sõnastiku saab koostada käsuga <code>sõnastik = {}</code>.<br>
-            Elementide lisamiseks sõnastikku on vaja defineerida nii võti kui ka väärtus. Nt. Käsklus <code>sõnastik[x] = y</code> määrab võtmele x väärtuse y.</p>
+            <p>dict - dictionary ehk sõnastik<br>
+                Koosneb võtmetest ja väärtustest. Tühja sõnastiku saab koostada käsuga <code>sõnastik = {}</code>.<br>
+                Elementide lisamiseks sõnastikku on vaja defineerida nii võti kui ka väärtus. Nt. Käsklus <code>sõnastik[x] = y</code> määrab võtmele x väärtuse y.</p>
             <p>Indeksid sõnastike puhul ei kehti, kõik väärtused saab kätte neile vastavate võtmete kaudu.<br>
             Sõnastiku <code>sõnastik = {"võti": "väärtus"}</code> võtme <code>"võti"</code> väärtuse tagastamiseks peame kirjutama <code>print(sõnastik["võti"])</code></p>
             <img class="andmetüübid" src="Pildid/Vaheleht2/dict.png" alt="Sõnastik Pythonis">
