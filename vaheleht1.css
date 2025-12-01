@@ -1,16 +1,5 @@
 .body1 {
-    background-image: url('pildid/Avaleht/taust.jpg') !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
-    
-    font-family: Arial, sans-serif; 
     color: #e5e5e5;
-}
-
-.content-container {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 0 20px;
 }
 
 .main-heading {
