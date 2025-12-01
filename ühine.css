@@ -34,3 +34,9 @@ body {
     text-decoration: none;
     margin: 12px 12px;
 }
+
+.content-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
